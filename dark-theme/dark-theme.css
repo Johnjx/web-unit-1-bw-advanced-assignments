@@ -1,4 +1,72 @@
-/* don't forget to implement a reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+ /* border:1px solid grey; */
+  }
+
+  /*General Styles*/
+
+html {
+    font-size: 62.5%;
+  }
+
+body {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      
+  }
+
+header div {
+      display: flex;
+  }
+
+  button {
+    margin-left: 1rem;
+}
+
+/*Light Theme Styles*/
+
+body {
+    
+}
+
+.spacer {
+    background-color: darkblue;
+    height: 10vh;
+  }
+
+  h1 {
+      color: lightblue;
+  }
+  
+
+  
+
+
+ 
 
 /* you need to implement styles for your dark and your light theme */
 /* which will be the default? up to you */
+
+/*Light Theme Styles*/
+
+
+
+/*Dark Theme Styles*/
+
+.dark-text {
+    color: lightseagreen;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.dark-spacer {
+    background-color: lightpink;
+    transition: 0.5s;
+}
+
+
+
+
