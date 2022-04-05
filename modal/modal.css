@@ -1,3 +1,57 @@
 /* don't forget your reset! */
 /* the visibility of your modal is based in CSS */
 /* it would be easier to get the html and css looking right for both first, then set the modal to be hidden */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+ /* border:1px solid grey; */
+  }
+  /*General Styles*/
+html {
+    font-size: 62.5%;
+  }
+
+body {
+      font-size: 1.6rem;
+      line-height: 1.5;
+  }
+
+
+/*Modal Styles*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0,0,0); */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 2rem;
+    border: 1px solid #888;
+    width: 50%;
+    height: 10%;
+}
+
+.modal-close {
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    color: black;
+    cursor: pointer;
+}
