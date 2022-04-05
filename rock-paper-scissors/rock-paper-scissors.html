@@ -15,13 +15,41 @@
 
   <body>
     <!-- make an area to display some text about the game and to display who won the round -->
+    <header>
+      <h1>Rock, Paper, Scissors</h1>
+      <h2 id="displayMessage">Choose Your Hand at the Bottom!</h2>
+      
+    </header>
+
     <!-- make an area to display the human score and computer score -->
+    <section class="score">
+      <div class="human">
+        <p>Human Score: <span id="hScore">0</span></p>
+        
+      </div>
+      <div class="computer">
+        <p>Computer Score: <span id="cScore">0</span></p>
+        
+      </div>
+    </section>
+
     <!-- make an area to display your move and the computer's move -->
+    <section class="moves">
+    <div class="human-move">
+      <i class="fas fa-hand-rock"></i>
+    </div>
+    <div class="comp-move">
+      <i class="fas fa-hand-rock"></i>
+    </div>
+    </section>
+    
+    <footer>
     <div>
       <!-- this area will be where you pick your move -->
       <button class="fas fa-hand-rock" id="rock"></button>
       <button class="fas fa-hand-paper" id="paper"></button>
       <button class="fas fa-hand-scissors" id="scissors"></button>
     </div>
+    </footer>
   </body>
 </html>

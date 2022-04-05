@@ -1,1 +1,80 @@
 /* for the most part, your styles are up to you this time; just make it look nice */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+ /* border:1px solid grey; */
+  }
+  /*General Styles*/
+html {
+    font-size: 62.5%;
+  }
+
+body {
+      font-size: 1.6rem;
+      line-height: 1.5;
+  }
+
+header {
+    text-align: center;
+    background-color: bisque;
+  }
+
+h2 {
+  padding: 2rem;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.moves {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.human-move, .comp-move {
+  width: 50%;
+  height: 100%;
+  border: .5rem solid gray;
+  background-color: aquamarine;
+}
+
+.human-move i, .comp-move i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 5rem;
+}
+
+#rock, #paper, #scissors {
+  font-size: 4rem;
+}
+
+
+
+
+footer div {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 4rem;
+  height: 4rem;
+}
+
+/*human rock*/
+
+
+
+
